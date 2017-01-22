@@ -1,0 +1,367 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/matt/.nvm/versions/node/v4.4.7/bin/node',
+1 verbose cli   '/home/matt/.nvm/versions/node/v4.4.7/bin/npm',
+1 verbose cli   'shrinkwrap' ]
+2 info using npm@3.10.5
+3 info using node@v4.4.7
+4 info lifecycle lift@0.0.0~preshrinkwrap: lift@0.0.0
+5 silly lifecycle lift@0.0.0~preshrinkwrap: no script for preshrinkwrap, continuing
+6 warn shrinkwrap Excluding devDependency: @horizon/server@1.1.3 { '@angular/common': '2.0.0-rc.5',
+6 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+6 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+6 warn shrinkwrap   '@angular/forms': '0.3.0',
+6 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+6 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+6 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+6 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+6 warn shrinkwrap   bootstrap: '^3.3.7',
+6 warn shrinkwrap   'core-js': '^2.4.0',
+6 warn shrinkwrap   'reflect-metadata': '0.1.3',
+6 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+6 warn shrinkwrap   'ts-helpers': '^1.1.1',
+6 warn shrinkwrap   'zone.js': '0.6.12' }
+7 warn shrinkwrap Excluding devDependency: @types/jasmine@2.5.41 { '@angular/common': '2.0.0-rc.5',
+7 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+7 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+7 warn shrinkwrap   '@angular/forms': '0.3.0',
+7 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+7 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+7 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+7 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+7 warn shrinkwrap   bootstrap: '^3.3.7',
+7 warn shrinkwrap   'core-js': '^2.4.0',
+7 warn shrinkwrap   'reflect-metadata': '0.1.3',
+7 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+7 warn shrinkwrap   'ts-helpers': '^1.1.1',
+7 warn shrinkwrap   'zone.js': '0.6.12' }
+8 warn shrinkwrap Excluding devDependency: @types/protractor@1.5.20 { '@angular/common': '2.0.0-rc.5',
+8 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+8 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+8 warn shrinkwrap   '@angular/forms': '0.3.0',
+8 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+8 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+8 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+8 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+8 warn shrinkwrap   bootstrap: '^3.3.7',
+8 warn shrinkwrap   'core-js': '^2.4.0',
+8 warn shrinkwrap   'reflect-metadata': '0.1.3',
+8 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+8 warn shrinkwrap   'ts-helpers': '^1.1.1',
+8 warn shrinkwrap   'zone.js': '0.6.12' }
+9 warn shrinkwrap Excluding devDependency: angular-cli@1.0.0-beta.11-webpack.2 { '@angular/common': '2.0.0-rc.5',
+9 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+9 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+9 warn shrinkwrap   '@angular/forms': '0.3.0',
+9 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+9 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+9 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+9 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+9 warn shrinkwrap   bootstrap: '^3.3.7',
+9 warn shrinkwrap   'core-js': '^2.4.0',
+9 warn shrinkwrap   'reflect-metadata': '0.1.3',
+9 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+9 warn shrinkwrap   'ts-helpers': '^1.1.1',
+9 warn shrinkwrap   'zone.js': '0.6.12' }
+10 warn shrinkwrap Excluding devDependency: codelyzer@0.0.26 { '@angular/common': '2.0.0-rc.5',
+10 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+10 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+10 warn shrinkwrap   '@angular/forms': '0.3.0',
+10 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+10 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+10 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+10 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+10 warn shrinkwrap   bootstrap: '^3.3.7',
+10 warn shrinkwrap   'core-js': '^2.4.0',
+10 warn shrinkwrap   'reflect-metadata': '0.1.3',
+10 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+10 warn shrinkwrap   'ts-helpers': '^1.1.1',
+10 warn shrinkwrap   'zone.js': '0.6.12' }
+11 warn shrinkwrap Excluding devDependency: concurrently@2.2.0 { '@angular/common': '2.0.0-rc.5',
+11 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+11 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+11 warn shrinkwrap   '@angular/forms': '0.3.0',
+11 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+11 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+11 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+11 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+11 warn shrinkwrap   bootstrap: '^3.3.7',
+11 warn shrinkwrap   'core-js': '^2.4.0',
+11 warn shrinkwrap   'reflect-metadata': '0.1.3',
+11 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+11 warn shrinkwrap   'ts-helpers': '^1.1.1',
+11 warn shrinkwrap   'zone.js': '0.6.12' }
+12 warn shrinkwrap Excluding devDependency: cookie-parser@1.4.3 { '@angular/common': '2.0.0-rc.5',
+12 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+12 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+12 warn shrinkwrap   '@angular/forms': '0.3.0',
+12 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+12 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+12 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+12 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+12 warn shrinkwrap   bootstrap: '^3.3.7',
+12 warn shrinkwrap   'core-js': '^2.4.0',
+12 warn shrinkwrap   'reflect-metadata': '0.1.3',
+12 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+12 warn shrinkwrap   'ts-helpers': '^1.1.1',
+12 warn shrinkwrap   'zone.js': '0.6.12' }
+13 warn shrinkwrap Excluding devDependency: horizon@2.0.0 { '@angular/common': '2.0.0-rc.5',
+13 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+13 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+13 warn shrinkwrap   '@angular/forms': '0.3.0',
+13 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+13 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+13 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+13 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+13 warn shrinkwrap   bootstrap: '^3.3.7',
+13 warn shrinkwrap   'core-js': '^2.4.0',
+13 warn shrinkwrap   'reflect-metadata': '0.1.3',
+13 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+13 warn shrinkwrap   'ts-helpers': '^1.1.1',
+13 warn shrinkwrap   'zone.js': '0.6.12' }
+14 warn shrinkwrap Excluding devDependency: jasmine-spec-reporter@2.5.0 { '@angular/common': '2.0.0-rc.5',
+14 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+14 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+14 warn shrinkwrap   '@angular/forms': '0.3.0',
+14 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+14 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+14 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+14 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+14 warn shrinkwrap   bootstrap: '^3.3.7',
+14 warn shrinkwrap   'core-js': '^2.4.0',
+14 warn shrinkwrap   'reflect-metadata': '0.1.3',
+14 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+14 warn shrinkwrap   'ts-helpers': '^1.1.1',
+14 warn shrinkwrap   'zone.js': '0.6.12' }
+15 warn shrinkwrap Excluding devDependency: karma@0.13.22 { '@angular/common': '2.0.0-rc.5',
+15 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+15 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+15 warn shrinkwrap   '@angular/forms': '0.3.0',
+15 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+15 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+15 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+15 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+15 warn shrinkwrap   bootstrap: '^3.3.7',
+15 warn shrinkwrap   'core-js': '^2.4.0',
+15 warn shrinkwrap   'reflect-metadata': '0.1.3',
+15 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+15 warn shrinkwrap   'ts-helpers': '^1.1.1',
+15 warn shrinkwrap   'zone.js': '0.6.12' }
+16 warn shrinkwrap Excluding devDependency: karma-chrome-launcher@0.2.3 { '@angular/common': '2.0.0-rc.5',
+16 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+16 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+16 warn shrinkwrap   '@angular/forms': '0.3.0',
+16 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+16 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+16 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+16 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+16 warn shrinkwrap   bootstrap: '^3.3.7',
+16 warn shrinkwrap   'core-js': '^2.4.0',
+16 warn shrinkwrap   'reflect-metadata': '0.1.3',
+16 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+16 warn shrinkwrap   'ts-helpers': '^1.1.1',
+16 warn shrinkwrap   'zone.js': '0.6.12' }
+17 warn shrinkwrap Excluding devDependency: karma-jasmine@0.3.8 { '@angular/common': '2.0.0-rc.5',
+17 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+17 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+17 warn shrinkwrap   '@angular/forms': '0.3.0',
+17 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+17 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+17 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+17 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+17 warn shrinkwrap   bootstrap: '^3.3.7',
+17 warn shrinkwrap   'core-js': '^2.4.0',
+17 warn shrinkwrap   'reflect-metadata': '0.1.3',
+17 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+17 warn shrinkwrap   'ts-helpers': '^1.1.1',
+17 warn shrinkwrap   'zone.js': '0.6.12' }
+18 warn shrinkwrap Excluding devDependency: karma-remap-istanbul@0.2.2 { '@angular/common': '2.0.0-rc.5',
+18 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+18 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+18 warn shrinkwrap   '@angular/forms': '0.3.0',
+18 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+18 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+18 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+18 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+18 warn shrinkwrap   bootstrap: '^3.3.7',
+18 warn shrinkwrap   'core-js': '^2.4.0',
+18 warn shrinkwrap   'reflect-metadata': '0.1.3',
+18 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+18 warn shrinkwrap   'ts-helpers': '^1.1.1',
+18 warn shrinkwrap   'zone.js': '0.6.12' }
+19 warn shrinkwrap Excluding devDependency: koa@1.2.1 { '@angular/common': '2.0.0-rc.5',
+19 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+19 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+19 warn shrinkwrap   '@angular/forms': '0.3.0',
+19 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+19 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+19 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+19 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+19 warn shrinkwrap   bootstrap: '^3.3.7',
+19 warn shrinkwrap   'core-js': '^2.4.0',
+19 warn shrinkwrap   'reflect-metadata': '0.1.3',
+19 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+19 warn shrinkwrap   'ts-helpers': '^1.1.1',
+19 warn shrinkwrap   'zone.js': '0.6.12' }
+20 warn shrinkwrap Excluding devDependency: ts-node@1.2.1 { '@angular/common': '2.0.0-rc.5',
+20 warn shrinkwrap   '@angular/compiler': '2.0.0-rc.5',
+20 warn shrinkwrap   '@angular/core': '2.0.0-rc.5',
+20 warn shrinkwrap   '@angular/forms': '0.3.0',
+20 warn shrinkwrap   '@angular/http': '2.0.0-rc.5',
+20 warn shrinkwrap   '@angular/platform-browser': '2.0.0-rc.5',
+20 warn shrinkwrap   '@angular/platform-browser-dynamic': '2.0.0-rc.5',
+20 warn shrinkwrap   '@angular/router': '3.0.0-rc.1',
+20 warn shrinkwrap   bootstrap: '^3.3.7',
+20 warn shrinkwrap   'core-js': '^2.4.0',
+20 warn shrinkwrap   'reflect-metadata': '0.1.3',
+20 warn shrinkwrap   rxjs: '5.0.0-beta.6',
+20 warn shrinkwrap   'ts-helpers': '^1.1.1',
+20 warn shrinkwrap   'zone.js': '0.6.12' }
+21 info lifecycle lift@0.0.0~shrinkwrap: lift@0.0.0
+22 silly lifecycle lift@0.0.0~shrinkwrap: no script for shrinkwrap, continuing
+23 verbose stack Error: Problems were encountered
+23 verbose stack Please correct and try again.
+23 verbose stack peer invalid: typescript@^1.9.0-dev, required by @angular/tsc-wrapped@0.2.2
+23 verbose stack extraneous: @horizon/client@1.1.3 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client
+23 verbose stack extraneous: engine.io-parser@1.2.4 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/engine.io-parser
+23 verbose stack extraneous: has-binary@0.1.6 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/has-binary
+23 verbose stack extraneous: isarray@0.0.1 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/isarray
+23 verbose stack extraneous: rxjs@5.0.0-beta.7 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/rxjs
+23 verbose stack extraneous: sentence-case@1.1.3 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/sentence-case
+23 verbose stack extraneous: snake-case@1.1.2 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/snake-case
+23 verbose stack extraneous: symbol-observable@0.2.4 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/symbol-observable
+23 verbose stack extraneous: babel-runtime@6.11.6 /home/matt/projects/lift-app/lift-client/node_modules/babel-runtime
+23 verbose stack extraneous: base64-url@1.3.2 /home/matt/projects/lift-app/lift-client/node_modules/base64-url
+23 verbose stack extraneous: base64url@1.0.6 /home/matt/projects/lift-app/lift-client/node_modules/base64url
+23 verbose stack extraneous: camelcase-keys@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/camelcase-keys
+23 verbose stack extraneous: concat-stream@1.4.10 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/concat-stream
+23 verbose stack extraneous: indent-string@1.2.2 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/indent-string
+23 verbose stack extraneous: isarray@0.0.1 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/isarray
+23 verbose stack extraneous: meow@2.0.0 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/meow
+23 verbose stack extraneous: object-assign@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/object-assign
+23 verbose stack extraneous: readable-stream@1.1.14 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/readable-stream
+23 verbose stack extraneous: buffer-equal-constant-time@1.0.1 /home/matt/projects/lift-app/lift-client/node_modules/buffer-equal-constant-time
+23 verbose stack extraneous: co@4.6.0 /home/matt/projects/lift-app/lift-client/node_modules/co
+23 verbose stack extraneous: composition@2.3.0 /home/matt/projects/lift-app/lift-client/node_modules/composition
+23 verbose stack extraneous: cookies@0.6.1 /home/matt/projects/lift-app/lift-client/node_modules/cookies
+23 verbose stack extraneous: cycle@1.0.3 /home/matt/projects/lift-app/lift-client/node_modules/cycle
+23 verbose stack extraneous: deep-equal@1.0.1 /home/matt/projects/lift-app/lift-client/node_modules/deep-equal
+23 verbose stack extraneous: ecdsa-sig-formatter@1.0.7 /home/matt/projects/lift-app/lift-client/node_modules/ecdsa-sig-formatter
+23 verbose stack extraneous: encoding@0.1.12 /home/matt/projects/lift-app/lift-client/node_modules/encoding
+23 verbose stack extraneous: error-inject@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/error-inject
+23 verbose stack extraneous: eyes@0.1.8 /home/matt/projects/lift-app/lift-client/node_modules/eyes
+23 verbose stack extraneous: hasbin@1.2.3 /home/matt/projects/lift-app/lift-client/node_modules/hasbin
+23 verbose stack extraneous: async@1.5.2 /home/matt/projects/lift-app/lift-client/node_modules/hasbin/node_modules/async
+23 verbose stack extraneous: http-assert@1.2.0 /home/matt/projects/lift-app/lift-client/node_modules/http-assert
+23 verbose stack extraneous: http-errors@1.4.0 /home/matt/projects/lift-app/lift-client/node_modules/http-assert/node_modules/http-errors
+23 verbose stack extraneous: imports-loader@0.6.5 /home/matt/projects/lift-app/lift-client/node_modules/imports-loader
+23 verbose stack extraneous: source-map@0.1.43 /home/matt/projects/lift-app/lift-client/node_modules/imports-loader/node_modules/source-map
+23 verbose stack extraneous: is-plain-object@2.0.1 /home/matt/projects/lift-app/lift-client/node_modules/is-plain-object
+23 verbose stack extraneous: isobject@1.0.2 /home/matt/projects/lift-app/lift-client/node_modules/is-plain-object/node_modules/isobject
+23 verbose stack extraneous: isemail@2.2.1 /home/matt/projects/lift-app/lift-client/node_modules/isemail
+23 verbose stack extraneous: isomorphic-fetch@2.2.1 /home/matt/projects/lift-app/lift-client/node_modules/isomorphic-fetch
+23 verbose stack extraneous: joi@8.4.2 /home/matt/projects/lift-app/lift-client/node_modules/joi
+23 verbose stack extraneous: hoek@4.0.2 /home/matt/projects/lift-app/lift-client/node_modules/joi/node_modules/hoek
+23 verbose stack extraneous: jsonwebtoken@5.7.0 /home/matt/projects/lift-app/lift-client/node_modules/jsonwebtoken
+23 verbose stack extraneous: jwa@1.1.3 /home/matt/projects/lift-app/lift-client/node_modules/jwa
+23 verbose stack extraneous: jws@3.1.3 /home/matt/projects/lift-app/lift-client/node_modules/jws
+23 verbose stack extraneous: keygrip@1.0.1 /home/matt/projects/lift-app/lift-client/node_modules/keygrip
+23 verbose stack extraneous: koa-compose@2.4.0 /home/matt/projects/lift-app/lift-client/node_modules/koa-compose
+23 verbose stack extraneous: koa-is-json@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/koa-is-json
+23 verbose stack extraneous: node-fetch@1.6.0 /home/matt/projects/lift-app/lift-client/node_modules/node-fetch
+23 verbose stack extraneous: oauth@0.9.14 /home/matt/projects/lift-app/lift-client/node_modules/oauth
+23 verbose stack extraneous: only@0.0.2 /home/matt/projects/lift-app/lift-client/node_modules/only
+23 verbose stack extraneous: pem@1.8.3 /home/matt/projects/lift-app/lift-client/node_modules/pem
+23 verbose stack extraneous: pkginfo@0.3.1 /home/matt/projects/lift-app/lift-client/node_modules/pkginfo
+23 verbose stack extraneous: regenerator-runtime@0.9.5 /home/matt/projects/lift-app/lift-client/node_modules/regenerator-runtime
+23 verbose stack extraneous: rethinkdb@2.3.2 /home/matt/projects/lift-app/lift-client/node_modules/rethinkdb
+23 verbose stack extraneous: stack-trace@0.0.9 /home/matt/projects/lift-app/lift-client/node_modules/stack-trace
+23 verbose stack extraneous: toml@2.3.1 /home/matt/projects/lift-app/lift-client/node_modules/toml
+23 verbose stack extraneous: topo@2.0.2 /home/matt/projects/lift-app/lift-client/node_modules/topo
+23 verbose stack extraneous: hoek@4.0.2 /home/matt/projects/lift-app/lift-client/node_modules/topo/node_modules/hoek
+23 verbose stack peer invalid: typescript@^1.8.0 || ^1.9.0-dev, required by tsickle@0.1.6
+23 verbose stack extraneous: whatwg-fetch@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/whatwg-fetch
+23 verbose stack extraneous: winston@2.2.0 /home/matt/projects/lift-app/lift-client/node_modules/winston
+23 verbose stack extraneous: async@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/winston/node_modules/async
+23 verbose stack extraneous: colors@1.0.3 /home/matt/projects/lift-app/lift-client/node_modules/winston/node_modules/colors
+23 verbose stack     at shrinkwrap_ (/home/matt/.nvm/versions/node/v4.4.7/lib/node_modules/npm/lib/shrinkwrap.js:118:15)
+23 verbose stack     at Array.<anonymous> (/home/matt/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+23 verbose stack     at LOOP (/home/matt/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+23 verbose stack     at /home/matt/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+23 verbose stack     at done (/home/matt/.nvm/versions/node/v4.4.7/lib/node_modules/npm/lib/utils/lifecycle.js:129:5)
+23 verbose stack     at LOOP (/home/matt/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+23 verbose stack     at /home/matt/.nvm/versions/node/v4.4.7/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+23 verbose stack     at /home/matt/.nvm/versions/node/v4.4.7/lib/node_modules/npm/lib/utils/lifecycle.js:281:20
+23 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+24 verbose cwd /home/matt/projects/lift-app/lift-client
+25 error Linux 4.4.0-59-generic
+26 error argv "/home/matt/.nvm/versions/node/v4.4.7/bin/node" "/home/matt/.nvm/versions/node/v4.4.7/bin/npm" "shrinkwrap"
+27 error node v4.4.7
+28 error npm  v3.10.5
+29 error Problems were encountered
+29 error Please correct and try again.
+29 error peer invalid: typescript@^1.9.0-dev, required by @angular/tsc-wrapped@0.2.2
+29 error extraneous: @horizon/client@1.1.3 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client
+29 error extraneous: engine.io-parser@1.2.4 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/engine.io-parser
+29 error extraneous: has-binary@0.1.6 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/has-binary
+29 error extraneous: isarray@0.0.1 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/isarray
+29 error extraneous: rxjs@5.0.0-beta.7 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/rxjs
+29 error extraneous: sentence-case@1.1.3 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/sentence-case
+29 error extraneous: snake-case@1.1.2 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/snake-case
+29 error extraneous: symbol-observable@0.2.4 /home/matt/projects/lift-app/lift-client/node_modules/@horizon/client/node_modules/symbol-observable
+29 error extraneous: babel-runtime@6.11.6 /home/matt/projects/lift-app/lift-client/node_modules/babel-runtime
+29 error extraneous: base64-url@1.3.2 /home/matt/projects/lift-app/lift-client/node_modules/base64-url
+29 error extraneous: base64url@1.0.6 /home/matt/projects/lift-app/lift-client/node_modules/base64url
+29 error extraneous: camelcase-keys@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/camelcase-keys
+29 error extraneous: concat-stream@1.4.10 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/concat-stream
+29 error extraneous: indent-string@1.2.2 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/indent-string
+29 error extraneous: isarray@0.0.1 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/isarray
+29 error extraneous: meow@2.0.0 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/meow
+29 error extraneous: object-assign@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/object-assign
+29 error extraneous: readable-stream@1.1.14 /home/matt/projects/lift-app/lift-client/node_modules/base64url/node_modules/readable-stream
+29 error extraneous: buffer-equal-constant-time@1.0.1 /home/matt/projects/lift-app/lift-client/node_modules/buffer-equal-constant-time
+29 error extraneous: co@4.6.0 /home/matt/projects/lift-app/lift-client/node_modules/co
+29 error extraneous: composition@2.3.0 /home/matt/projects/lift-app/lift-client/node_modules/composition
+29 error extraneous: cookies@0.6.1 /home/matt/projects/lift-app/lift-client/node_modules/cookies
+29 error extraneous: cycle@1.0.3 /home/matt/projects/lift-app/lift-client/node_modules/cycle
+29 error extraneous: deep-equal@1.0.1 /home/matt/projects/lift-app/lift-client/node_modules/deep-equal
+29 error extraneous: ecdsa-sig-formatter@1.0.7 /home/matt/projects/lift-app/lift-client/node_modules/ecdsa-sig-formatter
+29 error extraneous: encoding@0.1.12 /home/matt/projects/lift-app/lift-client/node_modules/encoding
+29 error extraneous: error-inject@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/error-inject
+29 error extraneous: eyes@0.1.8 /home/matt/projects/lift-app/lift-client/node_modules/eyes
+29 error extraneous: hasbin@1.2.3 /home/matt/projects/lift-app/lift-client/node_modules/hasbin
+29 error extraneous: async@1.5.2 /home/matt/projects/lift-app/lift-client/node_modules/hasbin/node_modules/async
+29 error extraneous: http-assert@1.2.0 /home/matt/projects/lift-app/lift-client/node_modules/http-assert
+29 error extraneous: http-errors@1.4.0 /home/matt/projects/lift-app/lift-client/node_modules/http-assert/node_modules/http-errors
+29 error extraneous: imports-loader@0.6.5 /home/matt/projects/lift-app/lift-client/node_modules/imports-loader
+29 error extraneous: source-map@0.1.43 /home/matt/projects/lift-app/lift-client/node_modules/imports-loader/node_modules/source-map
+29 error extraneous: is-plain-object@2.0.1 /home/matt/projects/lift-app/lift-client/node_modules/is-plain-object
+29 error extraneous: isobject@1.0.2 /home/matt/projects/lift-app/lift-client/node_modules/is-plain-object/node_modules/isobject
+29 error extraneous: isemail@2.2.1 /home/matt/projects/lift-app/lift-client/node_modules/isemail
+29 error extraneous: isomorphic-fetch@2.2.1 /home/matt/projects/lift-app/lift-client/node_modules/isomorphic-fetch
+29 error extraneous: joi@8.4.2 /home/matt/projects/lift-app/lift-client/node_modules/joi
+29 error extraneous: hoek@4.0.2 /home/matt/projects/lift-app/lift-client/node_modules/joi/node_modules/hoek
+29 error extraneous: jsonwebtoken@5.7.0 /home/matt/projects/lift-app/lift-client/node_modules/jsonwebtoken
+29 error extraneous: jwa@1.1.3 /home/matt/projects/lift-app/lift-client/node_modules/jwa
+29 error extraneous: jws@3.1.3 /home/matt/projects/lift-app/lift-client/node_modules/jws
+29 error extraneous: keygrip@1.0.1 /home/matt/projects/lift-app/lift-client/node_modules/keygrip
+29 error extraneous: koa-compose@2.4.0 /home/matt/projects/lift-app/lift-client/node_modules/koa-compose
+29 error extraneous: koa-is-json@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/koa-is-json
+29 error extraneous: node-fetch@1.6.0 /home/matt/projects/lift-app/lift-client/node_modules/node-fetch
+29 error extraneous: oauth@0.9.14 /home/matt/projects/lift-app/lift-client/node_modules/oauth
+29 error extraneous: only@0.0.2 /home/matt/projects/lift-app/lift-client/node_modules/only
+29 error extraneous: pem@1.8.3 /home/matt/projects/lift-app/lift-client/node_modules/pem
+29 error extraneous: pkginfo@0.3.1 /home/matt/projects/lift-app/lift-client/node_modules/pkginfo
+29 error extraneous: regenerator-runtime@0.9.5 /home/matt/projects/lift-app/lift-client/node_modules/regenerator-runtime
+29 error extraneous: rethinkdb@2.3.2 /home/matt/projects/lift-app/lift-client/node_modules/rethinkdb
+29 error extraneous: stack-trace@0.0.9 /home/matt/projects/lift-app/lift-client/node_modules/stack-trace
+29 error extraneous: toml@2.3.1 /home/matt/projects/lift-app/lift-client/node_modules/toml
+29 error extraneous: topo@2.0.2 /home/matt/projects/lift-app/lift-client/node_modules/topo
+29 error extraneous: hoek@4.0.2 /home/matt/projects/lift-app/lift-client/node_modules/topo/node_modules/hoek
+29 error peer invalid: typescript@^1.8.0 || ^1.9.0-dev, required by tsickle@0.1.6
+29 error extraneous: whatwg-fetch@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/whatwg-fetch
+29 error extraneous: winston@2.2.0 /home/matt/projects/lift-app/lift-client/node_modules/winston
+29 error extraneous: async@1.0.0 /home/matt/projects/lift-app/lift-client/node_modules/winston/node_modules/async
+29 error extraneous: colors@1.0.3 /home/matt/projects/lift-app/lift-client/node_modules/winston/node_modules/colors
+30 error If you need help, you may report this error at:
+30 error     <https://github.com/npm/npm/issues>
+31 verbose exit [ 1, true ]
