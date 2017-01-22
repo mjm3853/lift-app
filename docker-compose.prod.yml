@@ -1,3 +1,8 @@
+angular: 
+  build: lift-client
+  ports:
+    - "4200:4200"
+
 rethinkdb:
   image: rethinkdb
   ports:
