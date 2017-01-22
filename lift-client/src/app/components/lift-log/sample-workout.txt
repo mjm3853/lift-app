@@ -1,4 +1,5 @@
 r.db('lift').table('workouts_d07e124ff6f8').insert({
+  $hz_v$: 1000,
   name: "Test Workout",
   timestamp: new Date(),
   lifts: [{
