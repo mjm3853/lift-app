@@ -1,0 +1,47 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2>{{title}}</h2>
+    </div>
+    <div class="panel-body">
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" required [(ngModel)]="store.workout.name" name="name">
+            </div>
+            <div class="well well-sm col-md-12" *ngFor='let lift of store.workout.lifts; let liftIndex=index'>
+                <div class="form-group">
+                    <div>
+                        <select class="form-control" id="liftType" name="liftType" required [(ngModel)]=lift.name>
+                        <option *ngFor="let liftType of store.liftTypes" [value]="liftType">{{liftType}}</option></select>
+                    </div>
+                </div>
+                <div class="well well-sm col-md-12" *ngFor='let set of lift.sets; let i=index'>
+                    <h5>Set</h5>
+                    <div class="form-group">
+                        <label for="name" class="col-xs-4">Reps</label>
+                        <div class="col-xs-8">
+                            <input type="text" class="form-control" id="reps" required [(ngModel)]="set.reps" name="reps">
+                        </div>
+                        <label class="col-xs-4" for="name">Weight</label>
+                        <div class="col-xs-8">
+                            <input type="text" class="form-control" id="weight" required [(ngModel)]="set.weight" name="weight">
+                        </div>
+                        <label class="col-xs-4" for="weightTypes">Type</label>
+                        <div class="col-xs-8">
+                            <select class="form-control" id="weightTypes" name="weightType" [(ngModel)]=set.weightType required>
+                        <option *ngFor="let weightType of store.weightTypes" [value]="weightType">{{weightType}}</option></select>
+                        </div>
+                    </div>
+
+                </div>
+                <button (click)="plusSet(liftIndex)">+</button>
+                <button (click)="minusSet(liftIndex)">-</button>
+            </div>
+            <button (click)="plusLift()">+</button>
+            <button (click)="minusLift()">-</button>
+            <br>
+            <br>
+            <button (click)="addLift()" class="btn btn-success">Save Lift!</button>
+            <button (click)="reset()" class="btn btn-default">Reset</button>
+        </form>
+    </div>
+</div>

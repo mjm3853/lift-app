@@ -1,0 +1,27 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h2>{{title}}</h2>
+  </div>
+  <ol class="list-group">
+    <li class="list-group-item" *ngFor='let workout of workouts'>
+      <h3>{{workout.name}}</h3>
+      <p>{{workout.timestamp | date:'short'}}</p>
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor='let lift of workout.lifts'>
+          <h4>{{lift.name}}</h4>
+          <table class="table">
+            <tr>
+              <th>Reps</th>
+              <th>Weight</th>
+            </tr>
+            <tr *ngFor='let set of lift.sets'>
+              <td>{{set.reps}}</td>
+              <td>{{set.weight + ' ' + set.weightType}}</td>
+            </tr>
+          </table>
+        </li>
+      </ul>
+      <button (click)="deleteWorkout(workout.id)" class="btn btn-danger">Delete</button>
+    </li>
+  </ol>
+</div>
