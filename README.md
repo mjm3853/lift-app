@@ -7,12 +7,12 @@ Built with Angular 2 and RethinkDB's Horizon.
 
 ## Development
 
-Use these steps to leverage Angular 2's hot reload during development:
+### With Hot Reload
 
 1. Start Horizon and RethinkDB with: `docker-compose up`
 2. From the <code>lift-client</code> folder, run the Client with: `npm start`
 
-## Production
+### For the Full Package
 
 1. Build the latest Client with: `docker-compose -f docker-compose.yml -f docker-compose.prod.yml build`
 2. Start all Services with: `docker-compose -f docker-compose.yml -f docker-compose.prod.yml up`
