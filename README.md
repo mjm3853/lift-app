@@ -14,5 +14,5 @@ Built with Angular 2 and RethinkDB's Horizon.
 
 ### For the Full Package
 
-1. Build the latest Client with: `docker-compose -f docker-compose.yml -f docker-compose.prod.yml build`
-2. Start all Services with: `docker-compose -f docker-compose.yml -f docker-compose.prod.yml up`
+1. Build the latest Client with: `docker-compose -f docker-compose.yml -f docker-compose.pkg.yml build`
+2. Start all Services with: `docker-compose -f docker-compose.yml -f docker-compose.pkg.yml up`
