@@ -2,7 +2,7 @@ rethinkdb:
   image: rethinkdb
   ports:
     - "28015:28015"
-    - "9999:9999"
+    - "8080:8080"
 
 horizon:
   image: rethinkdb/horizon
