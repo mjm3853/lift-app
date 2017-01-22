@@ -1,5 +1,8 @@
 rethinkdb:
   image: rethinkdb
+  ports:
+    - "28015:28015"
+    - "9999:9999"
 
 horizon:
   image: rethinkdb/horizon
@@ -8,3 +11,5 @@ horizon:
     - ./:/usr/app
   links:
     - rethinkdb
+  ports:
+    - "8181:8181"
