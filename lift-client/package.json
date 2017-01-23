@@ -6,6 +6,7 @@
   "scripts": {
     "start": "ng serve",
     "aws": "ng serve -h ec2-54-196-127-223.compute-1.amazonaws.com",
+    "build": "ng build -prod",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
