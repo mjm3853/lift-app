@@ -12,7 +12,7 @@ export class HorizonService {
 
   connect() {
 
-    this.horizon = Horizon({ host: '127.0.0.1:8181' });
+    this.horizon = Horizon({ host: 'ec2-54-196-127-223.compute-1.amazonaws.com:8181' });
 
     return new Promise((resolve, reject) => {
       this.horizon.onReady((status) => {
